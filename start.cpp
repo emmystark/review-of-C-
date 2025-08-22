@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+void greetStark();
+
 int main() {
   cout << "How are you doing today?" << endl;
   cout << "I hope you are doing well." << endl;
@@ -16,5 +18,12 @@ int main() {
 //   cout << "Make the most of it!" << endl;
 //   cout << "Cherish every moment!" << endl;
 //   cout << "Live life to the fullest!" << endl;
-  return 0;
+   greetStark();
+
+}
+
+
+void greetStark() {
+    cout << "Hello Stark, how are you doing \n today? \n";
+
 }
